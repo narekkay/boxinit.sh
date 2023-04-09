@@ -9,9 +9,9 @@ so I turned it like this:
 > ./boxinit.sh 10.10.X.X box.htb
 
 # Install
-Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it:
+Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it (set absolute path for the source!) :
 
-	sudo ln -s ./boxinit.sh /usr/bin/boxinit.sh
+	sudo ln -s /home/user/toolz/boxinit.sh /usr/bin/boxinit.sh
 
 # Usage
 	chmod +x boxinit.sh
