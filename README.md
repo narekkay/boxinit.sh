@@ -11,14 +11,14 @@ so I turned it like this:
 # Install
 Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it (set absolute path for the source!) :
 
+	chmod +x boxinit.sh
 	sudo ln -s /home/user/toolz/boxinit.sh /usr/bin/boxinit.sh
 
 # Usage
-	chmod +x boxinit.sh
-	sudo ./boxinit.sh <ip> <domain>
+	sudo boxinit.sh <ip> <domain>
 	
 # Exemple
-	boxinit.sh 10.10.14.17 box.htb
+	sudo boxinit.sh 10.10.14.17 box.htb
 
 # Demo
 ![boxinit.sh Demo](boxinit_demo.gif)
