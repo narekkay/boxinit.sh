@@ -4,7 +4,7 @@ I got tired of doing:
 
 > echo "10.10.X.X box.htb >> /etc/hosts"
 
-so I wrote this:
+so I turned it like this:
 	
 > ./boxinit.sh 10.10.X.X box.htb
 
