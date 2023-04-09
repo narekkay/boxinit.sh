@@ -9,16 +9,16 @@ so I wrote this:
 > ./boxinit.sh 10.10.X.X box.htb
 
 # Install
-	Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it:
+Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it:
 
-	> sudo ln -s ./boxinit.sh /usr/bin/boxinit.sh
+	sudo ln -s ./boxinit.sh /usr/bin/boxinit.sh
 
 # Usage
-	> chmod +x boxinit.sh
-	> sudo ./boxinit.sh <ip-address> <domain>
-
+	chmod +x boxinit.sh
+	sudo ./boxinit.sh <ip-address> <domain>
+	
 # Exemple
-	> ./boxinit.sh 10.10.14.17 box.htb
+> ./boxinit.sh 10.10.14.17 box.htb
 
 # Note
 **Only works on UNIX systems.
