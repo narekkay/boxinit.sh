@@ -24,12 +24,13 @@ if [[ -z $1 || -z $2 ]]; then
 	exit 1
 fi
 
+# test ip regex filter on ip argument
 if [[ $1 =~ $ip4 ]]; then
 	echo "$1 $2" >> /etc/hosts
 	echo -e "${BGreen}[+]${RESET} Now resolving ${BGreen}$2${RESET} to ${BGreen}$1${RESET} !"
 	exit 0
 else
-        echo -e "${BRed}Incorrect IP address${RESET}\n"
+        echo -e "${BRed}Incorrect IP address.${RESET}\n"
 	banner
 	exit 1
 fi
