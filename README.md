@@ -15,10 +15,10 @@ Copy boxinit.sh wherever you store you tools, and make it system-wide accessible
 
 # Usage
 	chmod +x boxinit.sh
-	sudo ./boxinit.sh <ip-address> <domain>
+	sudo ./boxinit.sh <ip> <domain>
 	
 # Exemple
-> ./boxinit.sh 10.10.14.17 box.htb
+	boxinit.sh 10.10.14.17 box.htb
 
 # Demo
 ![boxinit.sh Demo](boxinit_demo.gif)
