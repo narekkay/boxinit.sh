@@ -14,8 +14,8 @@
 	> sudo ln -s ./boxinit.sh /usr/bin/boxinit.sh
 
 # Usage
-	> chmod +x
-	> ./boxinit.sh <ip-address> <domain>
+	> chmod +x boxinit.sh
+	> sudo ./boxinit.sh <ip-address> <domain>
 
 # Exemple
 	> ./boxinit.sh 10.10.14.17 box.htb
