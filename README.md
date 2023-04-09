@@ -20,6 +20,18 @@ Copy boxinit.sh wherever you store you tools, and make it system-wide accessible
 # Exemple
 > ./boxinit.sh 10.10.14.17 box.htb
 
+# Demo
+![boxinit.sh Demo](boxinit_demo.gif)
+
+## Commands
+
+	git clone https://github.com/narekkay/boxinit.sh.git
+	cd boxinit.sh
+	chmod +x boxinit.sh
+	sudo ln -s /home/user/toolz/boxinit.sh/boxinit.sh /usr/bin/boxinit.sh
+	sudo boxinit.sh 10.10.14.17 box.htb
+
+
 # Note
 **Only works on UNIX systems.
 Not on Windows.**
