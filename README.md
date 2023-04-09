@@ -1,12 +1,12 @@
 # boxinit.sh
-	Quickly add a new entry in your /etc/hosts.
-	I got tired of doing:
+Quickly add a new entry in your /etc/hosts.
+I got tired of doing:
+
+> echo "10.10.X.X box.htb >> /etc/hosts"
+
+so I wrote this:
 	
-	> echo "10.10.X.X box.htb >> /etc/hosts"
-	
-	so I wrote this:
-	
-	> ./boxinit.sh 10.10.X.X box.htb
+> ./boxinit.sh 10.10.X.X box.htb
 
 # Install
 	Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it:
