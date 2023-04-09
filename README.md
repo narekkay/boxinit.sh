@@ -26,7 +26,7 @@ Not on Windows.**
 Steps for Windows :
 - **Copy** *C:\Windows\System32\Drivers\etc\hosts* in a writable folder (Desktop for example)
 - **Add** your entry in this file
-- **Move it again** to its original location and overwriting the current one
-- **End** 
+- **Move it again** to its original location and overwriting the current one **(needs admin rights)**
+- **Done** 
 
 ![It ain't much, but it's honest work](meme.jpg)
