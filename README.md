@@ -3,10 +3,14 @@ Quickly add a new entry in your /etc/hosts.
 I got tired of doing:
 
 > echo "10.10.X.X box.htb >> /etc/hosts"
+or 
+> sudo nano /etc/hosts ↓↓↓↓ ctrl+maj+v ctrl+o enter ctrl+x 
 
-so I turned it like this:
+so I turned it like:
 	
-> ./boxinit.sh 10.10.X.X box.htb
+> sudo ./boxinit.sh 10.10.X.X box.htb
+
+It will append a new line to your /etc/hosts, revolutionnary, isn't it?
 
 # Install
 Copy boxinit.sh wherever you store you tools, and make it system-wide accessible by creating a symbolic link to it (set absolute path for the source!) :
