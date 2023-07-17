@@ -2,6 +2,7 @@
 
 # Bored of manually adding a new box IP to your /etc/hosts?
 # Just use boxinit.sh [IP] [DOMAIN] !"
+# boxinint - narekkay @0xNarek
 
 BGreen='\033[1;32m'
 BRed='\033[1;31m'
